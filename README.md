@@ -48,8 +48,10 @@ A clean, minimal Android app that explores GitHub profiles and connections.
 ---
 
 ## 📦 Installation
-1. Clone the repo:
+
 ```bash
+1.Clone the repo:
+
 git clone https://github.com/Enosh185/GitHub-User-Explorer.git
 
 2. Open in Android Studio
