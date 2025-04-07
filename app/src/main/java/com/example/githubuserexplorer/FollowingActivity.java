@@ -54,7 +54,7 @@ public class FollowingActivity extends AppCompatActivity {
             return;
         }
 
-        // 🔁 Pull-to-refresh setup
+        // Pull-to-refresh setup
         swipeRefreshLayout.setOnRefreshListener(() -> {
             if (adapter != null) {
                 adapter.clearUsers(); // ⛳️ Make sure this method exists in UserAdapter
@@ -62,7 +62,7 @@ public class FollowingActivity extends AppCompatActivity {
             loadFollowing(login);
         });
 
-        // 🔍 Search
+        // Search
         searchBar.addTextChangedListener(new TextWatcher() {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (adapter != null) adapter.filter(s.toString());
@@ -71,7 +71,7 @@ public class FollowingActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {}
         });
 
-        // 🔎 Trigger search on "Enter" key press
+        // Trigger search on "Enter" key press
         searchBar.setOnEditorActionListener((TextView v, int actionId, KeyEvent event) -> {
             if (actionId == EditorInfo.IME_ACTION_SEARCH ||
                     (event != null && event.getKeyCode() == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN)) {
@@ -81,7 +81,7 @@ public class FollowingActivity extends AppCompatActivity {
             return false;
         });
 
-        // 🚀 Initial load
+        // Initial load
         loadFollowing(login);
     }
 

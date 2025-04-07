@@ -54,7 +54,7 @@ public class FollowersActivity extends AppCompatActivity {
             return;
         }
 
-        // 🔄 Pull-to-refresh logic
+        // Pull-to-refresh logic
         swipeRefreshLayout.setOnRefreshListener(() -> {
             if (adapter != null) {
                 adapter.clearUsers();
@@ -62,7 +62,7 @@ public class FollowersActivity extends AppCompatActivity {
             loadFollowers(login);
         });
 
-        // 🔍 Live typing filter
+        // Live typing filter
         searchBar.addTextChangedListener(new TextWatcher() {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 if (adapter != null) adapter.filter(s.toString());
@@ -72,7 +72,7 @@ public class FollowersActivity extends AppCompatActivity {
             public void afterTextChanged(Editable s) {}
         });
 
-        // 🔎 Trigger search on "Enter" key press
+        // Trigger search on "Enter" key press
         searchBar.setOnEditorActionListener((TextView v, int actionId, KeyEvent event) -> {
             if (actionId == EditorInfo.IME_ACTION_SEARCH ||
                     (event != null && event.getKeyCode() == KeyEvent.KEYCODE_ENTER && event.getAction() == KeyEvent.ACTION_DOWN)) {
@@ -82,7 +82,7 @@ public class FollowersActivity extends AppCompatActivity {
             return false;
         });
 
-        // 🚀 Initial load
+        // Initial load
         loadFollowers(login);
     }
 

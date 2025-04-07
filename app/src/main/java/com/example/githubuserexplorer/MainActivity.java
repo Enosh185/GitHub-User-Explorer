@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             AppCompatDelegate.setDefaultNightMode(checked ? AppCompatDelegate.MODE_NIGHT_YES : AppCompatDelegate.MODE_NIGHT_NO);
         });
 
-        // 🧭 Toolbar setup
+        // Toolbar setup
         Toolbar toolbar = findViewById(R.id.top_toolbar);
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         }
 
-        // 🔗 UI elements
+        // UI elements
         searchInput = findViewById(R.id.search_input);
         searchButton = findViewById(R.id.search_button);
         avatar = findViewById(R.id.avatar);
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         viewModel = new ViewModelProvider(this).get(UserViewModel.class);
         clearUserData();
 
-        // 🔍 Search button
+        // Search button
         searchButton.setOnClickListener(v -> {
             String user = searchInput.getText().toString().trim();
             if (!user.isEmpty()) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // 📡 Observer for user result
+        // Observer for user result
         viewModel.getUser().observe(this, user -> {
             shimmerLayout.stopShimmer();
             shimmerLayout.setVisibility(View.GONE);
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // ⏳ Show shimmer while loading
+        // Show shimmer while loading
         viewModel.getLoading().observe(this, isLoading -> {
             if (isLoading) {
                 shimmerLayout.setVisibility(View.VISIBLE);
