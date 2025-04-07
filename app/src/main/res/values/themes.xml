@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.GitHubUserExplorer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#24292e</item> <!-- GitHub gray -->
+        <item name="colorPrimaryVariant">#1b1f23</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorSecondary">#03DAC5</item>
+    </style>
+
+</resources>

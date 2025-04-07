@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\drawable_github_logo.png.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\drawable\\github_logo.png"
+    },
+    {
+        "merged": "com.example.githubuserexplorer.app-debug-39:/mipmap_ic_launcher.png.flat",
+        "source": "com.example.githubuserexplorer.app-main-41:/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\drawable_github_background.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\drawable\\github_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\layout_activity_list.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\layout\\activity_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\layout\\activity_user_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\drawable_ic_default_avatar.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\drawable\\ic_default_avatar.xml"
+    },
+    {
+        "merged": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-debug-39:\\drawable_circle_background.xml.flat",
+        "source": "C:\\Users\\srina\\.gradle\\daemon\\8.11.1\\com.example.githubuserexplorer.app-main-41:\\drawable\\circle_background.xml"
+    }
+]

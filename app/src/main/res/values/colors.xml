@@ -1,0 +1,10 @@
+<resources>
+    <color name="githubGrey">#24292e</color> <!-- GitHub's classic dark gray -->
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryVariant">#f0f0f0</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorSecondary">#03DAC5</color>
+
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+</resources>
