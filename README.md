@@ -40,8 +40,7 @@ A clean, minimal Android app that explores GitHub profiles and connections.
 ## 🌟 Bonus Features Implemented
 - ✅ Skeleton loading screens using Shimmer
 - ✅ Pull to refresh on followers/following list
-- ✅ Profile caching with Room DB
-- ✅ Cache invalidation using background API fetch
+- ✅ Dark/Light toggle switch
 - ✅ Real-time search in follower/following lists
 - ✅ GitHub logo as launcher icon
 
