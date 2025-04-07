@@ -1,5 +1,11 @@
 # GitHub User Explorer 🚀
 
+## 🎥 Demo
+
+[Click to watch the demo on Google Drive](https://drive.google.com/file/d/your_file_id/view)
+
+> This video shows a full walkthrough of the GitHub User Explorer app. 
+
 A clean, minimal Android app that explores GitHub profiles and connections.
 
 ## 🛠 Built With
