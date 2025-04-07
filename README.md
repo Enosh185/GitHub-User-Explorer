@@ -2,7 +2,7 @@
 
 ## 🎥 Demo
 
-[Click to watch the demo on Google Drive](https://drive.google.com/file/d/your_file_id/view)
+[Click to watch the demo on Google Drive] https://drive.google.com/file/d/1TAOyFt78yDrqSgAb0_an-RxiveGwKuKA/view?usp=sharing
 
 > This video shows a full walkthrough of the GitHub User Explorer app. 
 
